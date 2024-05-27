@@ -1,0 +1,37 @@
+.profile-screen {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.profile-screen > h1{
+    padding-bottom: 25px;
+    padding-top: 5px;
+    text-align: center;
+
+  }
+  
+.profile-screen > div {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.profile-screen > div:last-child {
+  margin-bottom: 0;
+}
+
+.profile-screen > div:last-child {
+  margin-bottom: 0;
+}
+.buttons-profile{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (min-width: 768px) {
+  .profile-screen {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

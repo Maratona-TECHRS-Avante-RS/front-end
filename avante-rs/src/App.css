@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(183 183 183);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: rgb(183 183 183);
+}
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+
+.screen-container-default{
+  padding: 1.5em 0 6em 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.center-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+ul{
+  padding-left: 20px;
+}
+hr{
+  margin: 7px 0 ;
+}

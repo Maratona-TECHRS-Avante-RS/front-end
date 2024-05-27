@@ -1,0 +1,9 @@
+.page-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.button-page {
+  min-width: initial;
+  width: 8em;
+}

@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  height: 3.5em;
+  width: 100%;
+  position: fixed;
+  bottom: 0em;
+  align-items: center;
+  justify-content: center;
+  gap: 6em;
+  background-color: #0c1014;
+}
+.link-nav {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.active-link {
+  color: #e0cd69;
+}
+.nav > a:hover {
+  color: #ffe97c;
+}
+.nav > a:active {
+  color: #423b1b;
+}

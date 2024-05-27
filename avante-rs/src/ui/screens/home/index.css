@@ -1,0 +1,12 @@
+.home-screen > h1{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.helps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
